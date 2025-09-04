@@ -11,12 +11,12 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Posts"
+  name = "Workflows"
   pageRef = "posts"
   weight = 10
 
 [[main]]
-  name = "Tags"
+  name = "Categories"
   pageRef = "tags"
   weight = 20
 
@@ -29,24 +29,17 @@
   url = "https://nenjotsu.github.io/site/contact-me/"
   weight = 35
 
-[[main]]
-  # identifier = "web"
-  name = "Market Analysis"
-  # pre = "link"
-  url = "https://nenjotsu.github.io/blog/"
-  weight = 40
 
 [[main]]
   identifier = "github"
   pre = "github"
-  url = "https://github.com/nenjotsu"
+  url = "https://github.com/nenjotsu/awesome-n8n-workflows"
   weight = 50
 
 [[main]]
-  identifier = "twitter"
-  pre = "twitter"
-  url = "https://twitter.com/nenjotsu"
-  weight = 60
+  name = "Request"
+  url = "https://github.com/nenjotsu/awesome-n8n-workflows/issues"
+  weight = 40
 
 
 # -- Footer Menu --
@@ -54,7 +47,7 @@
 # the copyright notice. Configure as per the main menu above.
 
 
- [[footer]]
-   name = "Tags"
-   pageRef = "tags"
-   weight = 10
+[[footer]]
+  name = "Categories"
+  pageRef = "categories"
+  weight = 10

@@ -31,4 +31,3 @@ googleAnalytics = "G-4SPW2MSGKK"
 
 [outputs]
   home = ["html", "rss", "json"]
-  blogs = ["html", "rss", "json"]

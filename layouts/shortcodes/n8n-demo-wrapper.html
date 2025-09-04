@@ -1,0 +1,2 @@
+{{ $json := .Page.Resources.GetMatch "workflow.json" | transform.Unmarshal }}
+<n8n-demo-wrapper file='{{ $json | jsonify }}'></n8n-demo-wrapper>

@@ -11,3 +11,11 @@ body {
         border-color: #283357fa !important;
     }
 }
+
+.article-content.max-w-prose.mb-20 {
+    max-width: 100% !important;
+}
+
+button#search-button {
+    font-size: 1.5em !important;
+}

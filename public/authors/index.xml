@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on nenjo.tech</title>
+    <title>Authors on Awesome n8n Workflows</title>
     <link>http://localhost:1313/authors/</link>
-    <description>Recent content in Authors on nenjo.tech</description>
+    <description>Recent content in Authors on Awesome n8n Workflows</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2025 nenjo.tech</copyright>
+    <copyright>© 2025 Awesome n8n Workflows</copyright>
     <atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
