@@ -1,0 +1,24 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "nenjo.tech"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  # logo = "img/nenjotech-logo.png"
+  description = "Building Smarter Systems"
+  # copyright = "Copy, _right?_ :thinking_face:"
+  dateFormat = "2 January 2006"
+
+[params.author]
+  name = "nenjo.tech"
+  image = "img/nenjotech-logo.png"
+  headline = "\"Automating trades in Go, because clicking buttons manually isn’t a strategy.\""
+  bio = "I’m a developer specializing in trading and AI automation — helping traders turn ideas into Pine Script, Python, or Go bots with smart, production-ready workflows."
+   links = [
+     { link = "https://nenjotsu.github.io/site/" },
+     { github = "https://github.com/nenjotsu" },
+     { x-twitter = "https://twitter.com/nenjotsu" }
+   ]
