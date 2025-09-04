@@ -11,4 +11,11 @@
 <script defer src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2.0.0/webcomponents-loader.js"></script>
 <script defer src="https://www.unpkg.com/lit@2.0.0-rc.2/polyfill-support.js"></script>
 <script defer type="module" src="https://cdn.jsdelivr.net/npm/@n8n_io/n8n-demo-component/n8n-demo.bundled.js"></script>
-<script defer src="https://raw.githubusercontent.com/nenjotsu/awesome-n8n-workflows/refs/heads/main/assets/js/n8n-demo.js"></script>
+<script>
+class N8nDemo extends HTMLElement {
+  connectedCallback() {
+    const data = this.getAttribute("file");
+    this.innerHTML = `<n8n-demo theme="dark" frame="true" clicktointeract="true" hidecanvaserrors="true" workflow='${data}'></n8n-demo>`;}
+}
+customElements.define("n8n-demo-wrapper", N8nDemo);
+</script>
