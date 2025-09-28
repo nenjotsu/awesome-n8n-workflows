@@ -1,4 +1,4 @@
-# 🧩 Curated AI n8n Workflows
+# 🧩 [WIP] Curated AI n8n Workflows
 ### awesome-n8n-workflows
 [website](https://nenjotsu.github.io/awesome-n8n-workflows/)
 
